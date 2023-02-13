@@ -13,7 +13,6 @@ struct ContentView: View {
     let students = ["Harry", "Hermione", "Ron"]
     @State private var selectedStudent = "Harry"
 
-
    
     var body: some View {
         Button("Tap Count: \(tapCount)") {
